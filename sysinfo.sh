@@ -9,9 +9,8 @@ echo
 echo "==== IP Address ===="
 hostname -I
 
-echo
-echo "==== DNS Lookup (example.com) ===="
-nslookup example.com 2>/dev/null || echo "nslookup not available"
+echo "memory"
+freem -h
 
 echo
 echo "==== Storage Info ===="

@@ -10,7 +10,7 @@ echo "==== IP Address ===="
 hostname -I
 
 echo "memory"
-freem -h
+free -h
 
 echo
 echo "==== Storage Info ===="

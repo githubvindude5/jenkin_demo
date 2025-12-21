@@ -9,7 +9,7 @@ set -euo pipefail
 # ---- Config (you can tweak these) ----
 PING_TARGETS=("1.1.1.1" "8.8.8.8")
 HTTP_TARGETS=("https://www.cloudflare.com" "https://www.google.com" "https://example.com")
-TEST_DOMAIN="example.com"
+TEST_DOMAIN="www.abc.com"
 PING_COUNT=4
 PING_TIMEOUT=3
 CURL_TIMEOUT=5

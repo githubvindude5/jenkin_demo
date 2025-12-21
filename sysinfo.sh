@@ -15,3 +15,6 @@ free -h
 echo
 echo "==== Storage Info ===="
 df -h
+
+echo "Shutting down System"
+sudo init 0
